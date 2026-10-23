@@ -1,0 +1,17 @@
+{
+  "name": "devops-cicd-app",
+  "version": "1.0.0",
+  "description": "Simple Node.js Express app for DevOps CI/CD pipeline demonstration",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node --test tests/app.test.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
